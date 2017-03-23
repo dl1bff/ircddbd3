@@ -1,5 +1,5 @@
 [Unit]
-Description=ircddbd3 - starts ircDDB java program
+Description=ircDDB java program
 After=network.target
 
 [Service]
