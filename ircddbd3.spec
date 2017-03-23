@@ -76,7 +76,7 @@ rm -rf %{buildroot}
 %attr(755,root,root) /usr/share/%{name}/%{name}.sh
 %_unitdir/%{name}.service
 %_presetdir/51-%{name}.preset
-%doc README LICENSE
+%doc README.md LICENSE
 
 
 %pre
