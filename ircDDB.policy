@@ -1,0 +1,15 @@
+
+keystore "ircDDB.keystore";
+
+grant codeBase "file:/usr/share/ircddbd3/ircDDB2.jar", signedBy "dl1bff" {
+        permission java.security.AllPermission;
+};
+
+grant codeBase "file:/usr/share/ircddbd3/app2.jar", signedBy "dl1bff" {
+        permission java.security.AllPermission;
+};
+
+grant codeBase "file:/usr/share/java/postgresql-jdbc3.jar" {
+        permission java.security.AllPermission;
+};
+
