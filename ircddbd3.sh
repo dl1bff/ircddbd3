@@ -27,6 +27,8 @@ FILE2=$PRGMDIR/ircDDB2.jar
 
 PGSQL=/usr/share/java/postgresql-jdbc3.jar
 
+export PACKAGE_VERSION="PkGvErSiOn"
+
 cd /etc/ircddbd3
 
 exec /usr/bin/java -Djava.security.manager -Djava.security.policy=ircDDB.policy -cp $FILE1:$FILE2:$PGSQL net.ircDDB.IRCDDBApp

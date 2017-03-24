@@ -23,7 +23,7 @@
 
 Name: ircddbd3
 Version: 1.0
-Release: 2
+Release: 3
 License: GPLv2
 Group: Networking/Daemons
 Summary: ircDDB java program
@@ -49,7 +49,7 @@ The script starts the ircDDB java program.
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/%{name}
-cp %{name}.sh %{buildroot}/usr/share/%{name}/
+cat %{name}.sh | sed 's/PkGvErSiOn/rpm:%{name}-%{version}-%{release}/' > %{buildroot}/usr/share/%{name}/%{name}.sh
 cp app2.jar %{buildroot}/usr/share/%{name}/
 cp ircDDB2.jar %{buildroot}/usr/share/%{name}/
 mkdir -p %{buildroot}/%_unitdir
