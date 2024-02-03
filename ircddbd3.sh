@@ -31,4 +31,4 @@ export PACKAGE_VERSION="PkGvErSiOn"
 
 cd /etc/ircddbd3
 
-exec /usr/bin/java -Djava.security.manager -Djava.security.policy=ircDDB.policy -cp $FILE1:$FILE2:$PGSQL net.ircDDB.IRCDDBApp
+exec /usr/bin/java -cp $FILE1:$FILE2:$PGSQL net.ircDDB.IRCDDBApp
