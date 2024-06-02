@@ -23,7 +23,7 @@
 
 Name: ircddbd3
 Version: 1.0
-Release: 4
+Release: 5
 License: GPLv2
 Group: Networking/Daemons
 Summary: ircDDB java program
