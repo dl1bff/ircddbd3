@@ -25,7 +25,7 @@ PRGMDIR=/usr/share/ircddbd3
 FILE1=$PRGMDIR/app2.jar
 FILE2=$PRGMDIR/ircDDB2.jar
 
-PGSQL=/usr/share/java/postgresql-jdbc3.jar
+PGSQL=/usr/share/java/postgresql-jdbc.jar
 
 export PACKAGE_VERSION="PkGvErSiOn"
 

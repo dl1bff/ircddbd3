@@ -29,7 +29,7 @@ Group: Networking/Daemons
 Summary: ircDDB java program
 URL: http://ircddb.net
 Packager: Michael Dirska DL1BFF <dl1bff@mdx.de>
-Requires: java, postgresql, dstar_gw >= 3
+Requires: java, postgresql-jdbc, dstar_gw >= 3
 Source0: ircddbd3.tar.gz
 BuildRoot: %{_tmppath}/%{name}-root
 Requires(pre): shadow-utils
